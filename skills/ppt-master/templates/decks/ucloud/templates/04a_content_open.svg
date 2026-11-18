@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="content_open" data-pptx-layout-name="Title and Open Content">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <image id="layout-open-ripple" x="0" y="0" width="1280" height="720"
+    href="../images/bg_content_ripple.png" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-open-pill" x="0" y="34" width="52" height="30" rx="3" ry="3" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-open-logo" x="1053" y="38" width="179" height="22"
+    href="../images/logo_ucloud_blue.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-open-header-rule" x1="68" y1="92" x2="1232" y2="92"
+    stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="open-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="68 24 880 52">
+    <text id="open-title-carrier" data-pptx-carrier="true"
+      x="68" y="60" fill="#0A1633" font-size="32" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="open-object-slot" data-pptx-placeholder="object" data-pptx-idx="1"
+    data-pptx-bounds="68 118 1164 530">
+    <text id="open-object-carrier" data-pptx-carrier="true"
+      x="68" y="152" fill="#6B798E" font-size="18">{{CONTENT_AREA}}</text>
+  </g>
+  <g id="open-section-slot" data-pptx-placeholder="footer" data-pptx-idx="2"
+    data-pptx-bounds="68 668 420 32">
+    <text id="open-section-carrier" data-pptx-carrier="true"
+      x="68" y="690" fill="#ABB4C3" font-size="14">{{SECTION_NAME}}</text>
+  </g>
+  <g id="open-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="1064 668 168 32">
+    <text id="open-page-num-carrier" data-pptx-carrier="true"
+      x="1232" y="690" text-anchor="end" fill="#ABB4C3" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>

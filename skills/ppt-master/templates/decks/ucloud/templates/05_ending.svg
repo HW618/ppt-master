@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="ending_dark" data-pptx-layout-name="Dark Ending">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <rect id="layout-ending-bg" x="0" y="0" width="1280" height="720" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-ending-art" x="0" y="0" width="1280" height="720"
+    href="../images/bg_ending_dark.png" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-ending-logo" x="1016" y="32" width="228" height="28"
+    href="../images/logo_ucloud_white.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-ending-rule" x1="904" y1="444" x2="1244" y2="444"
+    stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.35"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="ending-thanks-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="444 296 800 132">
+    <text id="ending-thanks-carrier" data-pptx-carrier="true"
+      x="1244" y="390" text-anchor="end" fill="#FFFFFF"
+      font-family="Arial, Microsoft YaHei, Source Han Sans CN ExtraLight, sans-serif"
+      font-size="92" font-weight="300">{{THANK_YOU}}</text>
+  </g>
+  <g id="ending-contact-slot" data-pptx-placeholder="subtitle" data-pptx-idx="1"
+    data-pptx-bounds="564 464 680 48">
+    <text id="ending-contact-carrier" data-pptx-carrier="true"
+      x="1244" y="496" text-anchor="end" fill="#EBF0FC"
+      font-size="20">{{CONTACT_INFO}}</text>
+  </g>
+  <g id="ending-closing-slot" data-pptx-placeholder="body" data-pptx-idx="2"
+    data-pptx-bounds="564 520 680 42">
+    <text id="ending-closing-carrier" data-pptx-carrier="true"
+      x="1244" y="546" text-anchor="end" fill="#E5EAFF" fill-opacity="0.84"
+      font-size="16">{{CLOSING_MESSAGE}}</text>
+  </g>
+</svg>

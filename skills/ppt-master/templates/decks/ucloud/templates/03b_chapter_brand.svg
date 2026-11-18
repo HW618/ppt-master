@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="chapter_brand" data-pptx-layout-name="Brand Double-U Chapter">
+  <defs>
+    <linearGradient id="vi-brand-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00479D"/>
+      <stop offset="55%" stop-color="#3860F4"/>
+      <stop offset="100%" stop-color="#009CAB"/>
+    </linearGradient>
+  </defs>
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <rect id="layout-brand-bg" x="0" y="0" width="1280" height="720" fill="url(#vi-brand-grad)"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <path id="layout-brand-double-u-1"
+    d="M 520 0 L 520 350 A 260 260 0 0 0 1040 350 L 1040 0 L 920 0 L 920 350 A 140 140 0 0 1 640 350 L 640 0 Z"
+    fill="#FFFFFF" fill-opacity="0.10"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <path id="layout-brand-double-u-2"
+    d="M 660 0 L 660 350 A 260 260 0 0 0 1180 350 L 1180 0 L 1060 0 L 1060 350 A 140 140 0 0 1 780 350 L 780 0 Z"
+    fill="#FFFFFF" fill-opacity="0.08"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-brand-footer-bar" x="0" y="662" width="1280" height="58"
+    fill="#0A1633" fill-opacity="0.28"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-brand-logo" x="1053" y="680" width="179" height="22"
+    href="../images/logo_ucloud_white.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-brand-accent-bar" x="88" y="300" width="64" height="4" rx="2" ry="2" fill="#FFCF87"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="brand-chapter-num-slot" data-pptx-placeholder="body" data-pptx-idx="1"
+    data-pptx-bounds="88 214 360 76">
+    <text id="brand-chapter-num-carrier" data-pptx-carrier="true"
+      x="88" y="268" fill="#FFCF87"
+      font-family="Arial Black, Microsoft YaHei, Arial, sans-serif"
+      font-size="56" font-weight="700">{{CHAPTER_NUM}}</text>
+  </g>
+  <g id="brand-chapter-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="88 326 840 84">
+    <text id="brand-chapter-title-carrier" data-pptx-carrier="true"
+      x="88" y="382" fill="#FFFFFF"
+      font-size="44" font-weight="700">{{CHAPTER_TITLE}}</text>
+  </g>
+  <g id="brand-chapter-desc-slot" data-pptx-placeholder="subtitle" data-pptx-idx="2"
+    data-pptx-bounds="88 422 760 80">
+    <text id="brand-chapter-desc-carrier" data-pptx-carrier="true"
+      x="88" y="454" fill="#EBF0FC"
+      font-size="20">{{CHAPTER_DESC}}</text>
+  </g>
+  <g id="brand-chapter-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="88 674 160 32">
+    <text id="brand-chapter-page-num-carrier" data-pptx-carrier="true"
+      x="88" y="696" fill="#E5EAFF" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>

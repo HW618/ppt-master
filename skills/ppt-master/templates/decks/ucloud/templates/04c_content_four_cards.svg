@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="content_four_cards" data-pptx-layout-name="Four-Column Product Cards">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <image id="layout-cards-ripple" x="0" y="0" width="1280" height="720"
+    href="../images/bg_content_ripple.png" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-cards-pill" x="0" y="34" width="52" height="30" rx="3" ry="3" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-cards-logo" x="1053" y="38" width="179" height="22"
+    href="../images/logo_ucloud_blue.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-cards-header-rule" x1="68" y1="92" x2="1232" y2="92"
+    stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <rect id="layout-card-bg-1" x="68" y="134" width="268" height="504" rx="12" ry="12"
+    fill="#FFFFFF" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-card-stage-1" x="80" y="146" width="244" height="156" rx="8" ry="8"
+    fill="#EBF0FC" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <rect id="layout-card-bg-2" x="366" y="134" width="268" height="504" rx="12" ry="12"
+    fill="#FFFFFF" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-card-stage-2" x="378" y="146" width="244" height="156" rx="8" ry="8"
+    fill="#EBF0FC" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <rect id="layout-card-bg-3" x="664" y="134" width="268" height="504" rx="12" ry="12"
+    fill="#FFFFFF" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-card-stage-3" x="676" y="146" width="244" height="156" rx="8" ry="8"
+    fill="#EBF0FC" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <rect id="layout-card-bg-4" x="962" y="134" width="268" height="504" rx="12" ry="12"
+    fill="#FFFFFF" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-card-stage-4" x="974" y="146" width="244" height="156" rx="8" ry="8"
+    fill="#EBF0FC" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="cards-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="68 24 880 52">
+    <text id="cards-title-carrier" data-pptx-carrier="true"
+      x="68" y="60" fill="#0A1633" font-size="32" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+
+  <g id="cards-pic-slot-1" data-pptx-placeholder="picture" data-pptx-idx="11"
+    data-pptx-bounds="92 158 220 132">
+    <image id="cards-pic-carrier-1" data-pptx-carrier="true"
+      x="92" y="158" width="220" height="132"
+      href="../images/hero_model_platform.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="cards-head-slot-1" data-pptx-placeholder="body" data-pptx-idx="21"
+    data-pptx-bounds="88 324 228 52">
+    <text id="cards-head-carrier-1" data-pptx-carrier="true"
+      x="88" y="354" fill="#0A1633" font-size="20" font-weight="700">{{CARD_1_TITLE}}</text>
+  </g>
+  <g id="cards-body-slot-1" data-pptx-placeholder="body" data-pptx-idx="31"
+    data-pptx-bounds="88 386 228 224">
+    <text id="cards-body-carrier-1" data-pptx-carrier="true"
+      x="88" y="412" fill="#6B798E" font-size="15">{{CARD_1_DESC}}</text>
+  </g>
+
+  <g id="cards-pic-slot-2" data-pptx-placeholder="picture" data-pptx-idx="12"
+    data-pptx-bounds="390 158 220 132">
+    <image id="cards-pic-carrier-2" data-pptx-carrier="true"
+      x="390" y="158" width="220" height="132"
+      href="../images/hero_paas_o2.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="cards-head-slot-2" data-pptx-placeholder="body" data-pptx-idx="22"
+    data-pptx-bounds="386 324 228 52">
+    <text id="cards-head-carrier-2" data-pptx-carrier="true"
+      x="386" y="354" fill="#0A1633" font-size="20" font-weight="700">{{CARD_2_TITLE}}</text>
+  </g>
+  <g id="cards-body-slot-2" data-pptx-placeholder="body" data-pptx-idx="32"
+    data-pptx-bounds="386 386 228 224">
+    <text id="cards-body-carrier-2" data-pptx-carrier="true"
+      x="386" y="412" fill="#6B798E" font-size="15">{{CARD_2_DESC}}</text>
+  </g>
+
+  <g id="cards-pic-slot-3" data-pptx-placeholder="picture" data-pptx-idx="13"
+    data-pptx-bounds="688 158 220 132">
+    <image id="cards-pic-carrier-3" data-pptx-carrier="true"
+      x="688" y="158" width="220" height="132"
+      href="../images/hero_ai_analytics.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="cards-head-slot-3" data-pptx-placeholder="body" data-pptx-idx="23"
+    data-pptx-bounds="684 324 228 52">
+    <text id="cards-head-carrier-3" data-pptx-carrier="true"
+      x="684" y="354" fill="#0A1633" font-size="20" font-weight="700">{{CARD_3_TITLE}}</text>
+  </g>
+  <g id="cards-body-slot-3" data-pptx-placeholder="body" data-pptx-idx="33"
+    data-pptx-bounds="684 386 228 224">
+    <text id="cards-body-carrier-3" data-pptx-carrier="true"
+      x="684" y="412" fill="#6B798E" font-size="15">{{CARD_3_DESC}}</text>
+  </g>
+
+  <g id="cards-pic-slot-4" data-pptx-placeholder="picture" data-pptx-idx="14"
+    data-pptx-bounds="986 158 220 132">
+    <image id="cards-pic-carrier-4" data-pptx-carrier="true"
+      x="986" y="158" width="220" height="132"
+      href="../images/icon_hybrid_cloud.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="cards-head-slot-4" data-pptx-placeholder="body" data-pptx-idx="24"
+    data-pptx-bounds="982 324 228 52">
+    <text id="cards-head-carrier-4" data-pptx-carrier="true"
+      x="982" y="354" fill="#0A1633" font-size="20" font-weight="700">{{CARD_4_TITLE}}</text>
+  </g>
+  <g id="cards-body-slot-4" data-pptx-placeholder="body" data-pptx-idx="34"
+    data-pptx-bounds="982 386 228 224">
+    <text id="cards-body-carrier-4" data-pptx-carrier="true"
+      x="982" y="412" fill="#6B798E" font-size="15">{{CARD_4_DESC}}</text>
+  </g>
+
+  <g id="cards-section-slot" data-pptx-placeholder="footer" data-pptx-idx="5"
+    data-pptx-bounds="68 668 420 32">
+    <text id="cards-section-carrier" data-pptx-carrier="true"
+      x="68" y="690" fill="#ABB4C3" font-size="14">{{SECTION_NAME}}</text>
+  </g>
+  <g id="cards-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="1064 668 168 32">
+    <text id="cards-page-num-carrier" data-pptx-carrier="true"
+      x="1232" y="690" text-anchor="end" fill="#ABB4C3" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>

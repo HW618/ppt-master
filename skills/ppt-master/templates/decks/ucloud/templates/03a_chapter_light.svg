@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="chapter_light" data-pptx-layout-name="Light Isometric Chapter">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <image id="layout-chapter-bg" x="0" y="0" width="1280" height="720"
+    href="../images/bg_chapter_light.jpg" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-chapter-logo" x="1016" y="32" width="228" height="28"
+    href="../images/logo_ucloud_blue.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-chapter-bar" x="1184" y="294" width="60" height="4" rx="2" ry="2" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="chapter-num-slot" data-pptx-placeholder="body" data-pptx-idx="1"
+    data-pptx-bounds="984 212 260 76">
+    <text id="chapter-num-carrier" data-pptx-carrier="true"
+      x="1244" y="264" text-anchor="end" fill="#3860F4"
+      font-family="Arial Black, Microsoft YaHei, Arial, sans-serif"
+      font-size="52" font-weight="700">{{CHAPTER_NUM}}</text>
+  </g>
+  <g id="chapter-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="444 318 800 84">
+    <text id="chapter-title-carrier" data-pptx-carrier="true"
+      x="1244" y="374" text-anchor="end" fill="#0A1633"
+      font-size="44" font-weight="700">{{CHAPTER_TITLE}}</text>
+  </g>
+  <g id="chapter-desc-slot" data-pptx-placeholder="subtitle" data-pptx-idx="2"
+    data-pptx-bounds="504 412 740 80">
+    <text id="chapter-desc-carrier" data-pptx-carrier="true"
+      x="1244" y="446" text-anchor="end" fill="#6B798E"
+      font-size="20">{{CHAPTER_DESC}}</text>
+  </g>
+  <g id="chapter-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="1064 668 168 32">
+    <text id="chapter-page-num-carrier" data-pptx-carrier="true"
+      x="1232" y="690" text-anchor="end" fill="#6B798E" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>

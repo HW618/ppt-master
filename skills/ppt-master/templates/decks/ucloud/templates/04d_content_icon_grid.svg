@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="content_icon_grid" data-pptx-layout-name="Capability Icon Matrix">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <image id="layout-grid-ripple" x="0" y="0" width="1280" height="720"
+    href="../images/bg_content_ripple.png" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-pill" x="0" y="34" width="52" height="30" rx="3" ry="3" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-grid-logo" x="1053" y="38" width="179" height="22"
+    href="../images/logo_ucloud_blue.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-grid-header-rule" x1="68" y1="92" x2="1232" y2="92"
+    stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-grid-center-divider" x1="648" y1="140" x2="648" y2="626"
+    stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <rect id="layout-grid-badge-1" x="68" y="146" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-badge-2" x="68" y="274" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-badge-3" x="68" y="402" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-badge-4" x="68" y="530" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <rect id="layout-grid-badge-5" x="684" y="146" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-badge-6" x="684" y="274" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-badge-7" x="684" y="402" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-grid-badge-8" x="684" y="530" width="68" height="68" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="grid-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="68 24 880 52">
+    <text id="grid-title-carrier" data-pptx-carrier="true"
+      x="68" y="60" fill="#0A1633" font-size="32" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+
+  <g id="grid-pic-slot-1" data-pptx-placeholder="picture" data-pptx-idx="11"
+    data-pptx-bounds="76 154 52 52">
+    <image id="grid-pic-carrier-1" data-pptx-carrier="true"
+      x="76" y="154" width="52" height="52"
+      href="../images/icon_cloud_compute.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-1" data-pptx-placeholder="body" data-pptx-idx="21"
+    data-pptx-bounds="154 140 456 96">
+    <text id="grid-body-carrier-1" data-pptx-carrier="true"
+      x="154" y="172" fill="#0A1633" font-size="16">{{GRID_1_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-2" data-pptx-placeholder="picture" data-pptx-idx="12"
+    data-pptx-bounds="76 282 52 52">
+    <image id="grid-pic-carrier-2" data-pptx-carrier="true"
+      x="76" y="282" width="52" height="52"
+      href="../images/icon_ai_compute.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-2" data-pptx-placeholder="body" data-pptx-idx="22"
+    data-pptx-bounds="154 268 456 96">
+    <text id="grid-body-carrier-2" data-pptx-carrier="true"
+      x="154" y="300" fill="#0A1633" font-size="16">{{GRID_2_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-3" data-pptx-placeholder="picture" data-pptx-idx="13"
+    data-pptx-bounds="76 410 52 52">
+    <image id="grid-pic-carrier-3" data-pptx-carrier="true"
+      x="76" y="410" width="52" height="52"
+      href="../images/icon_hybrid_cloud.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-3" data-pptx-placeholder="body" data-pptx-idx="23"
+    data-pptx-bounds="154 396 456 96">
+    <text id="grid-body-carrier-3" data-pptx-carrier="true"
+      x="154" y="428" fill="#0A1633" font-size="16">{{GRID_3_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-4" data-pptx-placeholder="picture" data-pptx-idx="14"
+    data-pptx-bounds="76 538 52 52">
+    <image id="grid-pic-carrier-4" data-pptx-carrier="true"
+      x="76" y="538" width="52" height="52"
+      href="../images/icon_ai_brain.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-4" data-pptx-placeholder="body" data-pptx-idx="24"
+    data-pptx-bounds="154 524 456 96">
+    <text id="grid-body-carrier-4" data-pptx-carrier="true"
+      x="154" y="556" fill="#0A1633" font-size="16">{{GRID_4_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-5" data-pptx-placeholder="picture" data-pptx-idx="15"
+    data-pptx-bounds="692 154 52 52">
+    <image id="grid-pic-carrier-5" data-pptx-carrier="true"
+      x="692" y="154" width="52" height="52"
+      href="../images/icon_network_cloud.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-5" data-pptx-placeholder="body" data-pptx-idx="25"
+    data-pptx-bounds="770 140 456 96">
+    <text id="grid-body-carrier-5" data-pptx-carrier="true"
+      x="770" y="172" fill="#0A1633" font-size="16">{{GRID_5_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-6" data-pptx-placeholder="picture" data-pptx-idx="16"
+    data-pptx-bounds="692 282 52 52">
+    <image id="grid-pic-carrier-6" data-pptx-carrier="true"
+      x="692" y="282" width="52" height="52"
+      href="../images/icon_cloud_comm.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-6" data-pptx-placeholder="body" data-pptx-idx="26"
+    data-pptx-bounds="770 268 456 96">
+    <text id="grid-body-carrier-6" data-pptx-carrier="true"
+      x="770" y="300" fill="#0A1633" font-size="16">{{GRID_6_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-7" data-pptx-placeholder="picture" data-pptx-idx="17"
+    data-pptx-bounds="692 410 52 52">
+    <image id="grid-pic-carrier-7" data-pptx-carrier="true"
+      x="692" y="410" width="52" height="52"
+      href="../images/icon_datacenter_node.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-7" data-pptx-placeholder="body" data-pptx-idx="27"
+    data-pptx-bounds="770 396 456 96">
+    <text id="grid-body-carrier-7" data-pptx-carrier="true"
+      x="770" y="428" fill="#0A1633" font-size="16">{{GRID_7_TEXT}}</text>
+  </g>
+
+  <g id="grid-pic-slot-8" data-pptx-placeholder="picture" data-pptx-idx="18"
+    data-pptx-bounds="692 538 52 52">
+    <image id="grid-pic-carrier-8" data-pptx-carrier="true"
+      x="692" y="538" width="52" height="52"
+      href="../images/icon_enterprise_trust.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="grid-body-slot-8" data-pptx-placeholder="body" data-pptx-idx="28"
+    data-pptx-bounds="770 524 456 96">
+    <text id="grid-body-carrier-8" data-pptx-carrier="true"
+      x="770" y="556" fill="#0A1633" font-size="16">{{GRID_8_TEXT}}</text>
+  </g>
+
+  <g id="grid-section-slot" data-pptx-placeholder="footer" data-pptx-idx="5"
+    data-pptx-bounds="68 668 420 32">
+    <text id="grid-section-carrier" data-pptx-carrier="true"
+      x="68" y="690" fill="#ABB4C3" font-size="14">{{SECTION_NAME}}</text>
+  </g>
+  <g id="grid-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="1064 668 168 32">
+    <text id="grid-page-num-carrier" data-pptx-carrier="true"
+      x="1232" y="690" text-anchor="end" fill="#ABB4C3" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>

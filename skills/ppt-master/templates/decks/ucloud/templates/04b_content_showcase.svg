@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="content_showcase" data-pptx-layout-name="Split Media Showcase">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <image id="layout-showcase-ripple" x="0" y="0" width="1280" height="720"
+    href="../images/bg_content_ripple.png" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-showcase-pill" x="0" y="34" width="52" height="30" rx="3" ry="3" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-showcase-logo" x="1053" y="38" width="179" height="22"
+    href="../images/logo_ucloud_blue.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-showcase-header-rule" x1="68" y1="92" x2="1232" y2="92"
+    stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-showcase-accent" x="68" y="196" width="44" height="4" rx="2" ry="2" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-showcase-media-panel" x="614" y="142" width="618" height="476" rx="14" ry="14"
+    fill="#EBF0FC" stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="showcase-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="68 24 880 52">
+    <text id="showcase-title-carrier" data-pptx-carrier="true"
+      x="68" y="60" fill="#0A1633" font-size="32" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="showcase-heading-slot" data-pptx-placeholder="body" data-pptx-idx="1"
+    data-pptx-bounds="68 218 494 96">
+    <text id="showcase-heading-carrier" data-pptx-carrier="true"
+      x="68" y="256" fill="#0A1633" font-size="30" font-weight="700">{{SHOWCASE_HEADING}}</text>
+  </g>
+  <g id="showcase-body-slot" data-pptx-placeholder="body" data-pptx-idx="2"
+    data-pptx-bounds="68 330 494 260">
+    <text id="showcase-body-carrier" data-pptx-carrier="true"
+      x="68" y="362" fill="#6B798E" font-size="18">{{CONTENT_AREA}}</text>
+  </g>
+  <g id="showcase-picture-slot" data-pptx-placeholder="picture" data-pptx-idx="3"
+    data-pptx-bounds="638 166 570 428">
+    <image id="showcase-picture-carrier" data-pptx-carrier="true"
+      x="638" y="166" width="570" height="428"
+      href="../images/hero_ai_analytics.png" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="showcase-section-slot" data-pptx-placeholder="footer" data-pptx-idx="5"
+    data-pptx-bounds="68 668 420 32">
+    <text id="showcase-section-carrier" data-pptx-carrier="true"
+      x="68" y="690" fill="#ABB4C3" font-size="14">{{SECTION_NAME}}</text>
+  </g>
+  <g id="showcase-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="1064 668 168 32">
+    <text id="showcase-page-num-carrier" data-pptx-carrier="true"
+      x="1232" y="690" text-anchor="end" fill="#ABB4C3" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>

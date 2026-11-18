@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  font-family="Arial, Microsoft YaHei, Source Han Sans CN Normal, sans-serif"
+  data-pptx-master="ucloud_master" data-pptx-master-name="UCloud Master"
+  data-pptx-layout="toc_four_col" data-pptx-layout-name="Four-Column Agenda">
+  <rect id="ucloud-master-bg" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <image id="layout-toc-ripple" x="0" y="0" width="1280" height="720"
+    href="../images/bg_content_ripple.png" preserveAspectRatio="xMidYMid slice"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-toc-pill" x="0" y="34" width="52" height="30" rx="3" ry="3" fill="#3860F4"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-toc-logo" x="1053" y="38" width="179" height="22"
+    href="../images/logo_ucloud_blue.png" preserveAspectRatio="xMidYMid meet"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-toc-header-rule" x1="68" y1="92" x2="1232" y2="92"
+    stroke="#E1E6F0" stroke-width="1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <text id="layout-toc-num-1" x="100" y="196" fill="#3860F4" font-size="44" font-weight="700"
+    data-pptx-layer="layout" data-pptx-editable="false">01</text>
+  <line id="layout-toc-line-1" x1="100" y1="218" x2="335" y2="218" stroke="#E1E6F0" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-toc-num-2" x="385" y="196" fill="#3860F4" font-size="44" font-weight="700"
+    data-pptx-layer="layout" data-pptx-editable="false">02</text>
+  <line id="layout-toc-line-2" x1="385" y1="218" x2="620" y2="218" stroke="#E1E6F0" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-toc-num-3" x="670" y="196" fill="#3860F4" font-size="44" font-weight="700"
+    data-pptx-layer="layout" data-pptx-editable="false">03</text>
+  <line id="layout-toc-line-3" x1="670" y1="218" x2="905" y2="218" stroke="#E1E6F0" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-toc-num-4" x="955" y="196" fill="#3860F4" font-size="44" font-weight="700"
+    data-pptx-layer="layout" data-pptx-editable="false">04</text>
+  <line id="layout-toc-line-4" x1="955" y1="218" x2="1190" y2="218" stroke="#E1E6F0" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="toc-page-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="68 24 880 52">
+    <text id="toc-page-title-carrier" data-pptx-carrier="true"
+      x="68" y="60" fill="#0A1633" font-size="32" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+
+  <g id="toc-item-1-title-slot" data-pptx-placeholder="body" data-pptx-idx="11"
+    data-pptx-bounds="100 238 235 64">
+    <text id="toc-item-1-title-carrier" data-pptx-carrier="true"
+      x="100" y="272" fill="#0A1633" font-size="22" font-weight="700">{{TOC_ITEM_1_TITLE}}</text>
+  </g>
+  <g id="toc-item-1-desc-slot" data-pptx-placeholder="body" data-pptx-idx="15"
+    data-pptx-bounds="100 312 235 280">
+    <text id="toc-item-1-desc-carrier" data-pptx-carrier="true"
+      x="100" y="340" fill="#6B798E" font-size="16">{{TOC_ITEM_1_DESC}}</text>
+  </g>
+
+  <g id="toc-item-2-title-slot" data-pptx-placeholder="body" data-pptx-idx="12"
+    data-pptx-bounds="385 238 235 64">
+    <text id="toc-item-2-title-carrier" data-pptx-carrier="true"
+      x="385" y="272" fill="#0A1633" font-size="22" font-weight="700">{{TOC_ITEM_2_TITLE}}</text>
+  </g>
+  <g id="toc-item-2-desc-slot" data-pptx-placeholder="body" data-pptx-idx="16"
+    data-pptx-bounds="385 312 235 280">
+    <text id="toc-item-2-desc-carrier" data-pptx-carrier="true"
+      x="385" y="340" fill="#6B798E" font-size="16">{{TOC_ITEM_2_DESC}}</text>
+  </g>
+
+  <g id="toc-item-3-title-slot" data-pptx-placeholder="body" data-pptx-idx="13"
+    data-pptx-bounds="670 238 235 64">
+    <text id="toc-item-3-title-carrier" data-pptx-carrier="true"
+      x="670" y="272" fill="#0A1633" font-size="22" font-weight="700">{{TOC_ITEM_3_TITLE}}</text>
+  </g>
+  <g id="toc-item-3-desc-slot" data-pptx-placeholder="body" data-pptx-idx="17"
+    data-pptx-bounds="670 312 235 280">
+    <text id="toc-item-3-desc-carrier" data-pptx-carrier="true"
+      x="670" y="340" fill="#6B798E" font-size="16">{{TOC_ITEM_3_DESC}}</text>
+  </g>
+
+  <g id="toc-item-4-title-slot" data-pptx-placeholder="body" data-pptx-idx="14"
+    data-pptx-bounds="955 238 235 64">
+    <text id="toc-item-4-title-carrier" data-pptx-carrier="true"
+      x="955" y="272" fill="#0A1633" font-size="22" font-weight="700">{{TOC_ITEM_4_TITLE}}</text>
+  </g>
+  <g id="toc-item-4-desc-slot" data-pptx-placeholder="body" data-pptx-idx="18"
+    data-pptx-bounds="955 312 235 280">
+    <text id="toc-item-4-desc-carrier" data-pptx-carrier="true"
+      x="955" y="340" fill="#6B798E" font-size="16">{{TOC_ITEM_4_DESC}}</text>
+  </g>
+
+  <g id="toc-page-num-slot" data-pptx-placeholder="slide-number" data-pptx-idx="4"
+    data-pptx-bounds="1064 668 168 32">
+    <text id="toc-page-num-carrier" data-pptx-carrier="true"
+      x="1232" y="690" text-anchor="end" fill="#ABB4C3" font-size="14">{{PAGE_NUM}}</text>
+  </g>
+</svg>
